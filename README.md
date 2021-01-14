@@ -43,7 +43,7 @@ When doing online solving (connected to [root-me.org](https://root-me.org)) you 
 
 ## FAQ
 
-#### I get an error when runnig `./captcha_break.py`
+#### I get an error when running `./captcha_break.py`
 
 If you get this error message when running the program :
 
