@@ -31,15 +31,15 @@ optional arguments:
 
 When doing online solving (connected to [root-me.org](https://root-me.org)) you can use the following options :
 
-- `./captcha_break` : Send a single solve request to [root-me.org](https://root-me.org) and display the results
-- `./captcha_break --benchmark` : Send 100 solve requests to [root-me.org](https://root-me.org) and calculate a percentage of success based on the results
-- `./captcha_break --save SAVE` : Save *\<SAVE\>* number of CAPTCHAs to disk (for ML dataset, offline demo solving, etc)
+- `./captcha_break.py` : Send a single solve request to [root-me.org](https://root-me.org) and display the results
+- `./captcha_break.py --benchmark` : Send 100 solve requests to [root-me.org](https://root-me.org) and calculate a percentage of success based on the results
+- `./captcha_break.py --save SAVE` : Save *\<SAVE\>* number of CAPTCHAs to disk (for ML dataset, offline demo solving, etc)
 
 ### Offline
 
 **captcha_break** can also do offline solves of local CAPTCHAs by using the following option :
 
-- `./captcha_break --offline` : Will solve all CAPTCHA images located in *offline_captchas* folder and display the results
+- `./captcha_break.py --offline` : Will solve all CAPTCHA images located in *offline_captchas* folder and display the results
 
 ## FAQ
 
